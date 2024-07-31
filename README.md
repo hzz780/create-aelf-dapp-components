@@ -11,3 +11,7 @@ lerna run build
 lerna clean
 rm -rf node_modules/
 ```
+
+```bash
+lerna publish
+```
