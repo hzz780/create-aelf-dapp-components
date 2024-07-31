@@ -1,6 +1,6 @@
 {
   "name": "request-all-in-one",
-  "version": "0.0.3",
+  "version": "0.2.0-beta.0",
   "description": "",
   "type": "module",
   "main": "dist/my-library.umd.js",

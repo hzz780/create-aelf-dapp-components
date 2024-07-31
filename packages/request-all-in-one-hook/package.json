@@ -1,6 +1,6 @@
 {
   "name": "request-all-in-one-hook",
-  "version": "0.0.1",
+  "version": "0.2.0-beta.0",
   "description": "",
   "type": "module",
   "main": "dist/my-library.umd.js",
@@ -29,11 +29,11 @@
     "request-all-in-one": "workspace:*"
   },
   "peerDependencies": {
-    "@tanstack/react-query": "^5.51.15",
-    "request-all-in-one": "workspace:*",
     "@apollo/client": "^3.11.1",
+    "@tanstack/react-query": "^5.51.15",
     "react": ">=18.0.0",
-    "react-dom": ">=18.0.0"
+    "react-dom": ">=18.0.0",
+    "request-all-in-one": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.14.11",
