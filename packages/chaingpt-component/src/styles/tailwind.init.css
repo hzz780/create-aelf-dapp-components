@@ -1,0 +1,22 @@
+/*corePlugins: {*/
+/*    preflight: false,*/
+/*},*/
+/* We will not import the css of @tailwind base */
+/* https://tailwindcss.com/docs/preflight */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*#tailContainer {*/
+/*    @apply @tailwind base;*/
+/*}*/
+
+/*@layer base {*/
+/*    #tailContainer {*/
+/*        @apply @tailwind base;*/
+/*    }*/
+/*}*/
+
+.cursorPointer {
+    @apply cursor-pointer;
+}

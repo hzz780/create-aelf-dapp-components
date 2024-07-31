@@ -1,0 +1,17 @@
+@import '@styles/tailwind.init.css';
+
+.container {
+    @apply w-auto h-auto flex flex-col items-start mb-4;
+}
+
+.innerContainer {
+    @apply w-auto h-auto lg:text-base text-sm flex flex-row;
+}
+
+.childrenContainer {
+    @apply flex-1 ml-[8px] text-[13px];
+}
+
+.logoImage {
+    @apply w-[32px] h-[32px];
+}

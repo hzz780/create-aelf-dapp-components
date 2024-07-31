@@ -1,0 +1,32 @@
+@import '@styles/tailwind.init.css';
+.container {
+    display: flex;
+    padding: 0 16px 0 16px;
+}
+
+.inputContainer {
+    display: flex;
+    flex: 1;
+}
+
+.chainGptInputPlaceholder {
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 14px 16px 14px 0;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.chainGptInputPlaceholder::placeholder {
+    color: #D6D6D6;
+}
+
+.image {
+    width: 24px;
+    display: flex;
+    justify-content: center;
+}

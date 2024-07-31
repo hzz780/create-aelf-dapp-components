@@ -1,0 +1,10 @@
+@import '@styles/tailwind.init.css';
+
+.questionBox {
+    @apply w-full h-auto flex flex-col items-end mb-4;
+}
+
+.questionInnerBox {
+    @apply w-auto h-auto p-2 px-4 bg-white text-[13px] py-[16px];
+    @apply border border-[#E0E0E0] rounded-[12px_12px_4px_12px];
+}

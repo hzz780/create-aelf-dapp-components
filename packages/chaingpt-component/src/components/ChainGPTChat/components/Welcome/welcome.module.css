@@ -1,0 +1,13 @@
+@import '@styles/tailwind.init.css';
+
+.blank {
+    @apply w-[1px] h-[16px];
+}
+
+.textListFlex {
+    @apply flex;
+}
+
+.textListSpan {
+    @apply text-[24px];
+}

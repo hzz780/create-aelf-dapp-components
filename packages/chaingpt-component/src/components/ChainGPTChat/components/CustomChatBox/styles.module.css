@@ -1,0 +1,29 @@
+@import '@styles/tailwind.init.css';
+
+.con {
+    @apply w-[358px] h-[536px] bg-[#F5F5F5] flex flex-col ;
+    @apply border-[1px] border-[#E0E0E0] rounded-[8px];
+    @apply shadow-[0px_4px_16px_0px_rgba(0,0,0,0.16)];
+}
+
+.headerCon {
+    @apply w-[356px] h-[50px] flex bg-white text-[#808080] text-[14px]
+    items-center justify-center relative;
+    @apply rounded-t-[7px] border-b-[1px] border-[#E0E0E0];
+}
+
+.close {
+    @apply absolute top-[12px] left-[317px] cursor-pointer;
+}
+
+
+.chatBoxCon {
+    @apply flex-1 overflow-hidden;
+}
+
+.imageCon {
+    @apply w-[356px] h-[36px] text-[12px] flex text-[#808080] items-center justify-center;
+}
+.image {
+    @apply w-[64px] h-[18px] ml-[6px];
+}

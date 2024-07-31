@@ -1,0 +1,35 @@
+@import '@styles/tailwind.init.css';
+
+.container {
+    @apply w-full h-full flex flex-col
+}
+
+.messageBox {
+    @apply w-full h-full overflow-scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.messageBox::-webkit-scrollbar {
+    display: none;
+}
+
+/*.messageBoxOverflow {*/
+/*    !*@app w-full h-full flex-1 overflow-scroll;*!*/
+/*    @app w-full h-full flex-1;*/
+/*}*/
+
+.messageBoxInner {
+    @apply w-full p-[8px] py-[16px] whitespace-pre-wrap break-normal text-wrap
+}
+
+.inputBox {
+    @apply h-[60px] bg-white;
+}
+
+.answerBlock {
+    @apply block;
+}
+
+.answerHidden {
+    @apply hidden;
+}
