@@ -1,0 +1,29 @@
+{
+  "name": "opentelemetry-launcher",
+  "version": "0.0.3",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "git@github.com:hzz780/opentelemetry-launcher.git",
+  "author": "hzz780 <hzz780@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/context-zone": "^1.25.1",
+    "@opentelemetry/core": "^1.25.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.52.1",
+    "@opentelemetry/instrumentation": "^0.52.1",
+    "@opentelemetry/instrumentation-fetch": "^0.52.1",
+    "@opentelemetry/instrumentation-xml-http-request": "^0.52.1",
+    "@opentelemetry/resources": "^1.25.1",
+    "@opentelemetry/sdk-trace-base": "^1.25.1",
+    "@opentelemetry/sdk-trace-web": "^1.25.1",
+    "@opentelemetry/semantic-conventions": "^1.25.1"
+  }
+}
