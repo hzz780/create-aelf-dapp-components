@@ -16,7 +16,8 @@ export default function Page() {
   const [chatAPI, setChatAPI] = useState<string>('');
   useEffect(() => {
     // setChatAPI(`${location.protocol}//${location.host}/chaingpt/api/chat`);
-    setChatAPI('/api/demos/chaingpt');
+    // setChatAPI('/api/demos/chaingpt');
+    setChatAPI('/api/chaingpt');
   }, []);
 
   return <div className="p-3 flex">

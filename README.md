@@ -15,3 +15,12 @@ rm -rf node_modules/
 ```bash
 lerna publish
 ```
+
+```bash
+# 3005 dev template & all demos
+pnpm run -C apps/aelf-template dev
+# 3006 socket
+pnpm run -C apps/server-socket-io dev
+# 3007 chaingpt
+pnpm run -C apps/server-chaingpt start:dev
+```
