@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  chaingpt-api-stream:
+    image: aelfactory/chaingpt-api-stream:sha-c297a6f
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
